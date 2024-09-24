@@ -48,7 +48,11 @@ tina.begin_fill()
 tina.circle(101, steps=50)
 tina.end_fill()
 
-turtle.exitonclick()                    # Close the window when we click on it
+                    # Close the window when we click on it
+tina.forward(50)
+tina.write("I will get you in your sleep.")
+tina.forward(200)
+
 
 # Now you can try writing your own programs. Open
 # the next file 03_Turtle_Tricks.py
