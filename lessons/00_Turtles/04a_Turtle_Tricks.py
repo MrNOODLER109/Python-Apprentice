@@ -41,7 +41,34 @@ bob.forward(100)
 bob.write("      I am Bob., Hi!")
 tina.write("    Bob, SPIN, SPIN, SPIN! HAHAHAHAHA")
 bob.speed(10)
-bob.right(150000)
+bob.right(15000)
+
+bob.penup()
+bob.speed(0.75)
+bob.right(60)
+bob.forward(50)
+bob.write(".       STOP!, I am Bob, Lord of the White Sun!")
+bob.right(60)
+
+bob.forward(50)
+bob.pendown()
+bob.pencolor("orange")
+bob.circle(50)
+
+tina.right(90)
+tina.penup()
+tina.forward(200)
+tina.write("      Please don't destroy me!")
+tina.right(90)
+tina.forward(50)
+tina.write(".       No!")
+tina.forward(75)
+tina.color("white")
+
+bob.write(".       I am all powerfull!")
+
+
+
 
 
 

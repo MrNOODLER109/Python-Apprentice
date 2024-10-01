@@ -18,6 +18,29 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # tina.pencolor()
 
 
-... # Your code here
+tina.color("red")
+tina.forward(50)
+tina.left(60)
+
+tina.color("orange")
+tina.forward(50)
+tina.left(60)
+
+tina.color("yellow")
+tina.forward(50)
+tina.left(60)
+
+tina.color("green")
+tina.forward(50)
+tina.left(60)
+
+tina.color("blue")
+tina.forward(50)
+tina.left(60)
+
+tina.color("purple")
+tina.forward(50)
+tina.left(60)
+
 
 turtle.exitonclick()                    # Close the window when we click on it
