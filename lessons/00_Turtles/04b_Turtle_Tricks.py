@@ -42,5 +42,14 @@ tina.color("purple")
 tina.forward(50)
 tina.left(60)
 
+tina.right(90)
+tina.penup()
+tina.forward(50)
+tina.pendown()
+
+for i in range(4):
+   print('Loop Iteration', i)
+
+
 
 turtle.exitonclick()                    # Close the window when we click on it
