@@ -18,37 +18,10 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # tina.pencolor()
 
 
-tina.color("red")
-tina.forward(50)
-tina.left(60)
+sides = 6
+angle = 360/sides
 
-tina.color("orange")
-tina.forward(50)
-tina.left(60)
-
-tina.color("yellow")
-tina.forward(50)
-tina.left(60)
-
-tina.color("green")
-tina.forward(50)
-tina.left(60)
-
-tina.color("blue")
-tina.forward(50)
-tina.left(60)
-
-tina.color("purple")
-tina.forward(50)
-tina.left(60)
-
-tina.right(90)
-tina.penup()
-tina.forward(50)
-tina.pendown()
-
-for i in range(4):
-   print('Loop Iteration', i)
+angle
 
 
 
