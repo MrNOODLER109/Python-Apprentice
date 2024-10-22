@@ -93,10 +93,13 @@ tina.forward(50)
 tina.color("red")
 tina.write("           I am Tina, and this is my castle.")
 
+import turtle
+bob = turtle.Turtle()
+bob.shape('sqaur')
+bob.penup()
 
 
 
 
 turtle.exitonclick()
-
 

@@ -17,12 +17,17 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Make each side of the pentagon a different color with 
 # tina.pencolor()
 
-
 sides = 6
 angle = 360/sides
 
 angle
 
+for i in range(sides):
+    tina.forward(150)
+    tina.left(angle)
 
+for sides in range(1, 10):
+    angle = ...
+    print("Angle for ", sides, " sides is ", angle)
 
 turtle.exitonclick()                    # Close the window when we click on it
