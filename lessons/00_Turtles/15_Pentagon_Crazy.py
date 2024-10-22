@@ -36,6 +36,6 @@ for i in range(360):
     myTurtle.forward(i)
     myTurtle.right(angle + 1)
 
-myTurtle.hideturtle()
+
 
 turtle.done()

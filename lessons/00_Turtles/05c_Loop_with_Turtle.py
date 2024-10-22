@@ -95,10 +95,17 @@ tina.write("           I am Tina, and this is my castle.")
 
 import turtle
 bob = turtle.Turtle()
-bob.shape('sqaur')
+bob.shape('circle')
 bob.penup()
 
+bob.forward(50)
+bob.right(90)
+bob.forward(50)
+bob.right(90)
+bob.forward(50)
+bob.write("                                                                        I will destroy!")
 
+tina.hideturtle()
 
 
 turtle.exitonclick()
