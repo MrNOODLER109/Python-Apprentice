@@ -24,7 +24,7 @@ tina.circle(50)
 
 tina.clone(1)
 
-                    # Close the window when we click on it
+
 
 
 # Dont forget to check in your code!
