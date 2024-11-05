@@ -65,7 +65,7 @@ tina.write(".       No!")
 tina.forward(75)
 tina.color("white")
 
-bob.write(".       I am all powerfull!")
+bob.write(".    I am all powerfull!")
 
 
 

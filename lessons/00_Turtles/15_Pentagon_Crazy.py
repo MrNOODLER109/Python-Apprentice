@@ -25,7 +25,7 @@ myTurtle.speed(0)
 myTurtle.width(1)
 
 sides = 5
-angle = 360 / sides
+angle = 200 / sides
 
 for i in range(360):
     if i == 100:
@@ -36,6 +36,6 @@ for i in range(360):
     myTurtle.forward(i)
     myTurtle.right(angle + 1)
 
-
+myTurtle.hideturtle()
 
 turtle.done()
