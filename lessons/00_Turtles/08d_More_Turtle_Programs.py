@@ -13,3 +13,14 @@ Use this code to get a random x and y location
     y = random.randint(-300, 300)
 
 """
+import turtle                           
+turtle.setup (width=600, height=600)    
+
+tina = turtle.Turtle()                  
+
+tina.shape('turtle')                   
+tina.speed(2)
+
+tina.circle(110)
+
+turtle.exitonclick()

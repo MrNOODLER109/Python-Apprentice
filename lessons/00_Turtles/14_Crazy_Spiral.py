@@ -26,6 +26,14 @@ def make_a_shape(t):
 
 num_shapes = ...
 
+import turtle                           
+turtle.setup (width=600, height=600)    
+
+tina = turtle.Turtle()                  
+
+tina.shape('turtle')                   
+tina.speed(2)
+
 for i in range(...):
-    make_a_shape(t)
-    t.right(360/num_shapes)
+    make_a_shape(tina)
+    tina.right(360/num_shapes)

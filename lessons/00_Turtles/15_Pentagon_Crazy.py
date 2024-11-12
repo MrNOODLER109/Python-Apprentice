@@ -25,7 +25,7 @@ myTurtle.speed(0)
 myTurtle.width(1)
 
 sides = 5
-angle = 200 / sides
+angle = 360 / sides
 
 for i in range(360):
     if i == 100:
