@@ -18,9 +18,18 @@ turtle.setup (width=600, height=600)
 
 tina = turtle.Turtle()                  
 
-tina.shape('turtle')                   
-tina.speed(2)
+tina.begin_fill()
 
-tina.circle(110)
+tina.forward(100)
+tina.left(45)
+tina.forward(50)
+tina.left(135)
+tina.forward(165)
+tina.left(135)
+tina.forward(50)
+
+tina.end_fill()
+
+tina.undobufferentries()
 
 turtle.exitonclick()
