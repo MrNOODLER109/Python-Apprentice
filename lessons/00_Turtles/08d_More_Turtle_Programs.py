@@ -1,35 +1,37 @@
-"""
-Copy the code from the previous lesson, 08a_More_Turtle_programs.ipynb, 
-from the section " Click on the Turtle"
+import random
+import turtle
 
-Then change the code so that the turtle has a different image ( look in the 'images'
-directory ) and when you click on it, it moves to a random location on the screen.
+def getRandomColor():
+    return "#%06X" % (random.randint(0, 0xFFFFFF))
 
-Use this code to get a random x and y location
+def getNextColor(i):
+    return colors[i % len(colors)]
+
+window = turtle.Screen()
+window.bgcolor("black")
+window.setup(width=600, height=600, startx=0, starty=0)
+
+colors = ("red", "blue", "green", "yellow", "orange")
+
+myTurtle = turtle.Turtle()
+myTurtle.shape("turtle")
+myTurtle.speed(0)
+myTurtle.width(1)
+
+sides =        
+angle = 360 / sides
 
 
-    import random
-    x = random.randint(-300, 300)
-    y = random.randint(-300, 300)
 
-"""
-import turtle                           
-turtle.setup (width=600, height=600)    
+for i in range(360):
+    if i == 100:
+        myTurtle.width(2)
+    if i == 200:
+        myTurtle.width(3)
+    myTurtle.pencolor(getNextColor(i))
+    myTurtle.forward(i)
+    myTurtle.right(angle + 1)
 
-tina = turtle.Turtle()                  
+myTurtle.hideturtle()
 
-tina.begin_fill()
-
-tina.forward(100)
-tina.left(45)
-tina.forward(50)
-tina.left(135)
-tina.forward(165)
-tina.left(135)
-tina.forward(50)
-
-tina.end_fill()
-
-tina.undobufferentries()
-
-turtle.exitonclick()
+turtle.done()
